@@ -1,9 +1,9 @@
-// const mongoose = require('mongoose');
-// const Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-// const GoogleUserSchema = new Schema({
-//     username:String,
-//     googleid:String
-// });
+const GoogleUserSchema = new Schema({
+    username:String,
+    googleid:String
+});
 
-// module.exports = mongoose.model('GoogleUser',GoogleUserSchema);
+module.exports = mongoose.model('GoogleUser',GoogleUserSchema);
